@@ -1,0 +1,14 @@
+# List all branches
+git branch
+
+# Move head to a branch
+git checkout <branch>
+
+# Create a new branch
+git branch <branchname>
+
+# Check list of files modified / added / deleted on local repo
+git status
+
+# Add file to staging 
+git add <filename> OR git add .
