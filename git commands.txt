@@ -10,5 +10,18 @@ git branch <branchname>
 # Check list of files modified / added / deleted on local repo
 git status
 
-# Add file to staging 
-git add <filename> OR git add .
+# Add single file to staging 
+git add <filename> 
+
+# Add all files modified / added / deleted to staging 
+git add .
+
+# Commit all files staging 
+git commit -m "<commit msg>"
+
+# Push code to remote Github repository
+## Use this when <branchname> is not exists in remote but local(one time cmd)
+git push -u origin <branchname>
+
+## Use this when <branchname> is existing branch
+git push
