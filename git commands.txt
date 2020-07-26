@@ -23,5 +23,5 @@ git commit -m "<commit msg>"
 ## Use this when <branchname> is not exists in remote but local(one time cmd)
 git push -u origin <branchname>
 
-## Use this when <branchname> is existing branch
+## Use this when <branchname> is already exists
 git push
