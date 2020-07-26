@@ -19,6 +19,9 @@ git add .
 # Commit all files staging 
 git commit -m "<commit msg>"
 
+# Add and commit all files in one command
+git commit -a -m "<commit msg>"
+
 # Push code to remote Github repository
 ## Use this when <branchname> is not exists in remote but local(one time cmd)
 git push -u origin <branchname>
