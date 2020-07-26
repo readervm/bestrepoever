@@ -28,3 +28,7 @@ git push -u origin <branchname>
 
 ## Use this when <branchname> is already exists
 git push
+
+## Command to pull files from master or any remote branch to local repo
+git checkout <branchname>
+git pull origin master OR git pull --rebase origin master
